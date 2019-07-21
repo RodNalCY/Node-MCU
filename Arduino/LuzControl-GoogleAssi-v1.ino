@@ -1,6 +1,6 @@
 /*
   DETALLES
-   https://things.ubidots.com/api/v1.6/devices/googletelematica?token=BBFF-5zs6veBr5nZX03SWYYkiTL1bERgaJ4
+   https://things.ubidots.com/api/v1.6/devices/googletelematica?token=xxxx
    {"luzsala":{{NumberField}}}
    {"luzsala":0}
    temperatura*3.3*100/1024
@@ -8,9 +8,9 @@
 #include "UbidotsESPMQTT.h"
 
 // CONECTAR A NUESTRO SERVER WEB Y BRINDAR ACCESO A INTERNET
-#define TOKEN "BBFF-5zs6veBr5nZX03SWYYkiTL1bERgaJ4" // Your Ubidots TOKEN
-#define WIFINAME "INTACHABLE.Phone/>" //Your SSID
-#define WIFIPASS "R00000AZA" // Your Wifi Pass
+#define TOKEN "xxxx" // Your Ubidots TOKEN
+#define WIFINAME "WiFi-Name" //Your SSID
+#define WIFIPASS "WiFi-Password" // Your Wifi Pass
 #define DEVICE_LABEL "googletelematica"
 
 //VARIABLE QUE SE MOSTRARAN EN UBIDOTS y
